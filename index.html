@@ -9,17 +9,25 @@
     <style> 
         .custom-container { 
             max-width: 2400px; /* 最大幅を指定 */ 
-            margin: 0 auto; /* 中央揃え */ } 
+            margin: 0 auto; /* 中央揃え */ 
+            } 
+        .custom-max-width { 
+            max-width: 2400px; /* 最大幅を指定 */ 
+            margin: 0 auto; /* 中央揃え */ 
+            width: 100%; /* レスポンシブ対応 */ 
+            }
         .bg-purple { 
-            background-color: #7d2982; /* 紫色 */ }
+            background-color: #7d2982; /* 紫色 */ 
+            }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <header class="col-12 bg-purple text-white text-center py-3">
+            <img src="statics/img/prime_millionare_judgment.png" alt="タイトル" class="img-fluid custom-max-width">
+            <!-- <header class="col-12 bg-purple text-white text-center py-3">
                 <h2>素数大富豪判定</h2>
-            </header>
+            </header> -->
         </div>
         <div class="row">
             <main class="col-12 col-md-8 py-3">
@@ -31,7 +39,7 @@
         </div>
         <div class="row">
             <footer class="col-12 bg-purple text-white text-center py-2">
-                <p> nogizaka streaming now 2024</p>
+                <p> NOGIZAKA STREAMING NOW 2024</p>
             </footer>
         </div>
     </div>
