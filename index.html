@@ -54,10 +54,10 @@
             const resultElement = document.getElementById('result');
 
             if (isNaN(number) || number < 2) {
-                resultElement.textContent = '2以上の整数を入力してください。';
+                resultElement.textContent = '2以上の半角整数を入力してください。';
                 return;
             }
-
+            
             let isPrime = true;
             for (let i = 2; i <= Math.sqrt(number); i++) {
                 if (number % i === 0) {
